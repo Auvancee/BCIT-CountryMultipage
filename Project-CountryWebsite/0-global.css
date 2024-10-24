@@ -176,6 +176,53 @@ nav a {
 } /* <--------------> */
 
 
+/* [4] Footer */
+footer {
+    background-color: rgba(30, 30, 30, 0.273);
+    height: auto;
+    width: 100%;
+    margin-top: 20%;  
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-footer ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+
+.social-footer ul, .menu-footer ul  {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px;
+}
+
+.social-footer li a, .menu-footer li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Georgia-ExtraL';
+    letter-spacing: 2px;
+}
+
+.footer-subtitle {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
 /* ⇣⇣ DESKTOP SETTINGS ⇣⇣ */
 @media (min-width: 55em) {
 
