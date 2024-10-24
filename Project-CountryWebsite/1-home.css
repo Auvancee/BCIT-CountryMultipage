@@ -1,0 +1,132 @@
+/* [0] Font Face & Initialization */
+body {
+    background-color: rgb(240, 116, 116);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+a {
+    -webkit-tap-highlight-color:transparent;
+} 
+
+/* ⇣⇣ MOBILE SETTINGS ⇣⇣ */
+
+/* [1] Header & Navigation - GLOBAL CSS */
+/* [2] Hamburger Menu & Overlay - GLOBAL CSS*/
+/* [3] Image Hero & Title - GLOBAL CSS*/
+
+
+/* [4] About Foreground */
+.about-foreground {
+    display: flex;
+    /* margin: -20px; */
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+
+.about-content-intro h2, .about-content {
+    text-align: center;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content-intro img {
+    height: auto;
+    width: 100%;
+    border-color: rgb(116, 116, 116);
+    border-style:groove;
+    border-width: 5px;
+    scale: 0.8;
+   
+}
+
+/* [5] About Highlights - Emirates */
+.about-highlights {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.highlight-about {
+    text-align: center;
+    max-width: 600px;
+   padding: 10px;
+}
+
+@media (min-width: 10em) {
+    .emirate-images {
+        display: grid;
+        grid-template-columns: 1;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .emirate {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 16px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+@media (min-width: 30em) {
+    
+    .emirate-images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns on tablets */
+        gap: 15px;
+        padding: 15px;
+    }   
+
+    .emirate {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 16px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+
+
+}
+
+
+
+
+@media (min-width: 55em) { /* ⇣⇣ DESKTOP SETTINGS ⇣⇣ */
+
+    /* [1] Header & Navigation - GLOBAL CSS */
+    /* [2] Hamburger Menu & Overlay - GLOBAL CSS*/
+    /* [3] Image Hero & Title - GLOBAL CSS*/
+    
+    /* [4] About Foreground */
+
+
+    /* [5] About Foreground */
+    .emirate-images {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 20px;
+        justify-items: center;
+    }
+
+    .emirate {
+        background-color: #f9f9f9;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        padding: 16px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+}
