@@ -1,0 +1,70 @@
+/* [0] Font Face & Initialization */
+body {
+    background-color: rgb(240, 116, 116);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+a {
+    -webkit-tap-highlight-color:transparent;
+} 
+
+/* ⇣⇣ MOBILE SETTINGS ⇣⇣ */
+
+/* [1] Header & Navigation - GLOBAL CSS */
+/* [2] Hamburger Menu & Overlay - GLOBAL CSS*/
+/* [3] Image Hero & Title - GLOBAL CSS*/
+
+
+/* [4] Safety Foreground */
+.safety-foreground {
+    display: flex;
+    /* margin: -20px; */
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(124, 65, 65);
+    
+}
+
+.safety-intro img {
+    height: auto;
+    width: 100%;
+    
+}
+
+.safety-content {
+    max-width: 600px;
+}
+
+.safety-title, .safety-content {
+    text-align: center;
+}
+
+@media (min-width: 55em) { /* ⇣⇣ DESKTOP SETTINGS ⇣⇣ */
+
+    /* [1] Header & Navigation - GLOBAL CSS */
+    /* [2] Hamburger Menu & Overlay - GLOBAL CSS*/
+    /* [3] Image Hero & Title - GLOBAL CSS*/
+    
+    /* [4] About Foreground */
+
+
+    /* [5] Safety Foreground */
+    .safety-foreground {
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: center;
+       padding: 20px;
+
+
+    }
+
+    .safety-content {
+        text-align: left;
+    }
+
+
+
+
+}
