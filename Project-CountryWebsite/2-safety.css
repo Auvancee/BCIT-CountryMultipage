@@ -16,7 +16,6 @@ a {
 /* [2] Hamburger Menu & Overlay - GLOBAL CSS*/
 /* [3] Image Hero & Title - GLOBAL CSS*/
 
-
 /* [4] Safety Foreground */
 .safety-foreground {
     display: flex;
@@ -41,16 +40,31 @@ a {
     text-align: center;
 }
 
+/* [4.1] Safety Highlights */
+.def-image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.safety-high-title {
+    text-align: center;
+}
+
+.safety-highlight-content {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
 @media (min-width: 55em) { /* ⇣⇣ DESKTOP SETTINGS ⇣⇣ */
 
     /* [1] Header & Navigation - GLOBAL CSS */
     /* [2] Hamburger Menu & Overlay - GLOBAL CSS*/
     /* [3] Image Hero & Title - GLOBAL CSS*/
-    
-    /* [4] About Foreground */
 
-
-    /* [5] Safety Foreground */
+    /* [4] Safety Foreground */
     .safety-foreground {
        display: flex;
        flex-direction: row-reverse;
@@ -62,7 +76,16 @@ a {
         text-align: left;
     }
 
+    /* [4.1] Safety Highlights */
+    .def-image-container{
+        display: flex;
+        flex-direction: row;
+    }
 
-
+    .safety-highlight-content {
+        text-align: center;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
 
 }
