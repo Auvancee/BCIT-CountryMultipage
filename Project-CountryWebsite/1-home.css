@@ -58,6 +58,21 @@ a {
    padding: 10px;
 }
 
+/* [6] FoundingFather */
+.foundingFather {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.founderTitle {
+    text-align: center;
+}
+
+
+
+
+
 @media (min-width: 10em) {
     .emirate-images {
         display: grid;
