@@ -32,6 +32,7 @@ a {
     width: 100%;
 }
 
+/* [4.2] Cuisine Content */
 .cuisine-content {
     max-width: 600px;
 }
@@ -39,6 +40,52 @@ a {
 .cuisine-title, .cuisine-content {
     text-align: center;
 }
+
+/* [4.3] Famous Cuisine Lists */
+.cuisine-famous {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+@media (min-width: 10em) {
+
+    /* [4.3] Famous Cuisine Lists */
+    .dish-content {
+        display: grid;
+        grid-template-columns: 1;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .dish {
+        background-color: white;
+        padding: 16px;
+        text-align: left;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
+@media (min-width: 30em) {
+
+    /* [4.3] Famous Cuisine Lists */
+    .dish-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns on tablets */
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    .dish {
+        background-color: white;
+        padding: 16px;
+        text-align: left;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+}
+
 
 @media (min-width: 55em) {
       /* [1] Header & Navigation - GLOBAL CSS */
@@ -53,10 +100,28 @@ a {
         padding: 20px;
         gap: 20px;
      }
+
+     /* [4.2] Cuisine Content */
  
      .cuisine-content {
          text-align: left;
      }
+
+     /* [4.3] Famous Cuisine Lists */
+     .dish-content {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        padding: 20px;
+        justify-items: center;
+    }
+    
+    .dish {
+        background-color: white;
+        padding: 16px;
+        text-align: left;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
 
 
 }
