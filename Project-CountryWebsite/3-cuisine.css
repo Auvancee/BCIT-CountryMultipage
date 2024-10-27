@@ -1,0 +1,62 @@
+/* [0] Font Face & Initialization */
+body {
+    background-color: rgb(240, 116, 116);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+a {
+    -webkit-tap-highlight-color:transparent;
+} 
+
+
+/* ⇣⇣ MOBILE SETTINGS ⇣⇣ */
+
+/* [1] Header & Navigation - GLOBAL CSS */
+/* [2] Hamburger Menu & Overlay - GLOBAL CSS*/
+/* [3] Image Hero & Title - GLOBAL CSS*/
+
+/* [4] Cuisine Foreground */
+.cuisine-foreground {
+    display: flex;
+    /* margin: -20px; */
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: rgb(124, 65, 65);
+    padding: 20px;
+}
+
+.cuisine-intro img {
+    height: auto;
+    width: 100%;
+}
+
+.cuisine-content {
+    max-width: 600px;
+}
+
+.cuisine-title, .cuisine-content {
+    text-align: center;
+}
+
+@media (min-width: 55em) {
+      /* [1] Header & Navigation - GLOBAL CSS */
+    /* [2] Hamburger Menu & Overlay - GLOBAL CSS*/
+    /* [3] Image Hero & Title - GLOBAL CSS*/
+
+    /* [4] Safety Foreground */
+    .cuisine-foreground {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 20px;
+        gap: 20px;
+     }
+ 
+     .cuisine-content {
+         text-align: left;
+     }
+
+
+}
