@@ -16,3 +16,42 @@ a {
 /* [1] Header & Navigation - GLOBAL CSS */
 /* [2] Hamburger Menu & Overlay - GLOBAL CSS*/
 /* [3] Image Hero & Title - GLOBAL CSS*/
+
+/* [4] Credits Foreground */
+.media-credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-content {
+    text-align: center;
+    max-width: 500px;
+}
+
+/* table from chatgpt */
+.media-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+}
+
+.media-table th, .media-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.media-table th {
+    font-weight: bold;
+}
+
+.media-table td a {
+    color: blue;
+    text-decoration: underline;
+}
+
+.media-table tr:hover {
+    background-color: #e6e6e6;
+}
+
