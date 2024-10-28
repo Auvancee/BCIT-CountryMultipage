@@ -1,0 +1,18 @@
+/* [0] Font Face & Initialization */
+body {
+    background-color: rgb(240, 116, 116);
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+a {
+    -webkit-tap-highlight-color:transparent;
+} 
+
+
+/* ⇣⇣ MOBILE SETTINGS ⇣⇣ */
+
+/* [1] Header & Navigation - GLOBAL CSS */
+/* [2] Hamburger Menu & Overlay - GLOBAL CSS*/
+/* [3] Image Hero & Title - GLOBAL CSS*/
