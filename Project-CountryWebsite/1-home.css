@@ -24,11 +24,16 @@ a {
     flex-direction: column;
     align-items: center;
     background-color: rgb(255, 255, 255);
+    padding: 20px;
 }
 
 
 .about-content-intro h2, .about-content {
     text-align: center;
+}
+
+.about-content-intro h2 {
+    margin-top: 10%;
 }
 
 .about-content {
@@ -58,20 +63,31 @@ a {
    padding: 10px;
 }
 
+.highlight-about h2 {
+    margin-top: 15%;
+}
+
+.about-content p {
+    margin-bottom: 15%;
+}
+
 /* [6] FoundingFather */
 .history-title {
     text-align: center;
+    margin-top: 10%;
 }
 
 .foundingFather {
     display: flex;
     flex-direction: column;
     padding: 20px;
+    margin-bottom: 10%;
 }
 
 .founderTitle h2, h3{
     text-align: center;
 }
+
 
 
 @media (min-width: 10em) {
@@ -155,9 +171,13 @@ a {
         gap: 20px;
         max-width: 1300px;
         margin: 0 auto;
+        margin-bottom: 10%;
     }
 
     .founderContent {
         text-align: left;
     }
 }
+
+
+/* aumar.xyz/2-countrywebsite/ */
