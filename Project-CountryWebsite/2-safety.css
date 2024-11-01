@@ -91,6 +91,7 @@ iframe {
        flex-direction: row-reverse;
        justify-content: center;
        padding: 20px;
+       
     }
 
     .safety-content {
@@ -101,8 +102,11 @@ iframe {
     .def-image-container{
         display: flex;
         flex-direction: row;
+        gap: 20px;
+        padding: 20px;
+        
     }
-
+    
     .safety-highlight-content {
         text-align: center;
         max-width: 1000px;
