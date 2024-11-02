@@ -75,15 +75,15 @@
 
             <!-- [2.1] Credits Image & Title -->
             <section class="hero" id="hero">
-                <h1 class="hero-title">Credits</h1>
+                <h1 class="hero-title" tabindex="0">Credits</h1>
                 <img src="/Project-CountryWebsite/0-images/Credits.png" alt="dirt-background">
             </section>
             
              <!-- [2.2] Media Section -->
             <section class="media-credits" id="m-credits">
                 <div class="media-content">
-                    <h2>Media Credits</h2>
-                    <p>Authors of pictures & videos along with their origin of place has 
+                    <h2 tabindex="0">Media Credits</h2>
+                    <p tabindex="0">Authors of pictures & videos along with their origin of place has 
                         been referred down below & promoted.
                     </p>
                 </div>
@@ -138,11 +138,12 @@
 
                 <!-- [2.3] Info sub-section -->
                 <div class="info-content">
-                    <h2>Info Credits</h2>
-                    <p>Journalists & Authors of information along with their origin on the web 
+                    <h2 tabindex="0">Info Credits</h2>
+                    <p tabindex="0">Journalists & Authors of information along with their origin on the web 
                         have been referred down below & promoted.
                     </p>
                 </div>
+
                 <article class="info-table">
                     <table>
                         <tr>
@@ -192,6 +193,33 @@
                 
             </section>
 
+            <br><br><br><br>
+
+            
+            <section class="form-container">
+                
+                <h2 class="form-title">New Article Notifications!</h2>
+                <div class="form">
+                    <form action="#" method="post">
+                        <fieldset>
+
+                            <legend>Sign Up for News!</legend>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                
+                            <button type="submit">Submit</button>
+                        </fieldset>
+                    </form>
+                </div>
+            </section>
+
+            <br><br><br><br>
             
 
 
