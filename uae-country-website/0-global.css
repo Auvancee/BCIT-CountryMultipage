@@ -6,22 +6,22 @@
 
 @font-face {
     font-family: 'August-Bold';
-    src: url(/Project-CountryWebsite/0-fonts/August-Bold.ttf);
+    src: url(0-fonts/August-Bold.ttf);
 }
 
 @font-face {
     font-family: 'NonB-Extend-Regular';
-    src: url(/Project-CountryWebsite/0-fonts/NonBureauExtended-Regular-BF67107aef1acaa.otf);
+    src: url(0-fonts/NonBureauExtended-Regular-BF67107aef1acaa.otf);
 }
 
 @font-face {
     font-family: 'NonB-Extend-SemiBold';
-    src: url(/Project-CountryWebsite/0-fonts/NonBureauExtended-SemiBold-BF67107aef1fe00.otf);
+    src: url(0-fonts/NonBureauExtended-SemiBold-BF67107aef1fe00.otf);
 }
 
 @font-face {
     font-family: 'NonB-Extend-Thin';
-    src: url(/Project-CountryWebsite/0-fonts/NonBureauExtended-Thin-BF67107aef1b92a.otf);
+    src: url(0-fonts/NonBureauExtended-Thin-BF67107aef1b92a.otf);
 }
 
 
