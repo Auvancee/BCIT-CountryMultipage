@@ -1,4 +1,14 @@
 /* [0] Font Face & Initialization */
+@font-face {
+    font-family: 'NonB-Extend-SemiBold';
+    src: url(/Project-CountryWebsite/0-fonts/NonBureauExtended-SemiBold-BF67107aef1fe00.otf);
+}
+
+@font-face {
+    font-family: 'NonB-Extend-Thin';
+    src: url(/Project-CountryWebsite/0-fonts/NonBureauExtended-Thin-BF67107aef1b92a.otf);
+}
+
 body {
     background-color: rgb(240, 116, 116);
     overflow-x: hidden;
@@ -34,10 +44,13 @@ a {
 
 .about-content-intro h2 {
     margin-top: 10%;
+    
 }
 
 .about-content {
     max-width: 600px;
+    font-family: 'NonB-Extend-SemiBold';
+    font-size: 1rem;
 }
 
 .about-content-intro img {
@@ -49,29 +62,44 @@ a {
     scale: 0.8;
    
 }
+/* [5] Emirate Images */
+.emirate-title {
+    font-family: 'NonB-Extend-SemiBold';
+    text-transform: uppercase;
+}
 
-/* [5] About Highlights - Emirates */
+.emirate-text {
+    font-family: 'NonB-Extend-Thin';
+    letter-spacing: 1px;
+}
+
+/* [6] About Highlights */
 .about-highlights {
     display: flex;
     flex-direction: column;
     align-items: center
 }
 
+.about-content p {
+    margin-bottom: 15%;
+}
+
 .highlight-about {
     text-align: center;
-    max-width: 600px;
-   padding: 10px;
+    padding: 10px;
 }
 
 .highlight-about h2 {
     margin-top: 15%;
 }
 
-.about-content p {
-    margin-bottom: 15%;
+.highlight-about p {
+    max-width: 600px;
+    font-family: 'NonB-Extend-SemiBold';
+        font-size: 1rem;
 }
 
-/* [6] FoundingFather */
+/* [7] FoundingFather */
 .history-title {
     text-align: center;
     margin-top: 10%;
@@ -88,9 +116,38 @@ a {
     text-align: center;
 }
 
+.founderTitle h2, h3 {
+    font-family: 'NonB-Extend-SemiBold';
+    font-size: 1rem;
+}
+
+.founderTitle h3 {
+    font-family: 'NonB-Extend-Thin';
+    letter-spacing: 1px;
+}
+
+.founderContent p {
+    font-family: 'NonB-Extend-SemiBold';
+    font-size: 1rem;
+}
+
+.founderContent blockquote {
+    font-family: 'NonB-Extend-Thin';
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+
 
 
 @media (min-width: 10em) {
+
+    /* [5] Emirate List */
     .emirate-images {
         display: grid;
         grid-template-columns: 1;
@@ -106,11 +163,29 @@ a {
         text-align: center;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
+
+    /* [6] FoundingFather */
+    .founderContent p {
+        font-family: 'NonB-Extend-SemiBold';
+        font-size: 1.3rem;
+    }
+
+    .founderContent blockquote {
+        font-family: 'NonB-Extend-Thin';
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+    
+
+    
 }
+
+
 
 
 @media (min-width: 30em) {
     
+    /* [5] Emirate List */
     .emirate-images {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* Two columns on tablets */
@@ -128,8 +203,27 @@ a {
     }
 
 
+    /* [6] FoundingFather */
+    .founderTitle img {
+        max-width: 100%;
+    }
+
+    .founderContent p {
+        font-family: 'NonB-Extend-SemiBold';
+        font-size: 1.3rem;
+    }
+
+    .founderContent blockquote {
+        font-family: 'NonB-Extend-Thin';
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+
+
 
 }
+
+
 
 
 
@@ -141,9 +235,19 @@ a {
     /* [3] Image Hero & Title - GLOBAL CSS*/
     
     /* [4] About Foreground */
+    .about-content {
+        max-width: 1000px;
+        font-family: 'NonB-Extend-SemiBold';
+        font-size: 2rem;
+    }
 
+    .highlight-about p {
+        max-width: 1000px;
+        font-family: 'NonB-Extend-SemiBold';
+        font-size: 2rem;
+    }
 
-    /* [5] About Foreground */
+    /* [5] Emirate List */
     .emirate-images {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -162,6 +266,7 @@ a {
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
+
     /* [6] FoundingFather */
     .foundingFather {
         display: flex;
@@ -177,7 +282,44 @@ a {
     .founderContent {
         text-align: left;
     }
+
+    .founderTitle img {
+        max-width: 600px;
+    }
+
+    .founderContent p {
+        font-family: 'NonB-Extend-SemiBold';
+        font-size: 1.5rem;
+    }
+
+    .founderContent blockquote {
+        font-family: 'NonB-Extend-Thin';
+        letter-spacing: 1px;
+        font-size: 1.2rem;
+    }
+
 }
 
+@media (min-width: 70em) {
+    /* [6] FoundingFather */
+    .founderContent p {
+        font-family: 'NonB-Extend-SemiBold';
+        font-size: 2rem;
+    }
 
-/* aumar.xyz/2-countrywebsite/ */
+    .founderContent blockquote {
+        font-family: 'NonB-Extend-Thin';
+        letter-spacing: 1px;
+        font-size: 1.5rem;
+    }
+
+    .founderTitle h2 {
+        font-family: 'NonB-Extend-SemiBold';
+    }
+    
+    .founderTitle h3 {
+        font-family: 'NonB-Extend-Thin';
+        letter-spacing: 1px;
+    }
+    
+}
