@@ -1,5 +1,10 @@
 /* Global Settings For Website */
 @font-face {
+    font-family: 'Overused-Grotesk-Bold';
+    src: url(/Project-CountryWebsite/0-fonts/OverusedGrotesk-Bold.otf);
+}
+
+@font-face {
     font-family: 'August-Bold';
     src: url(/Project-CountryWebsite/0-fonts/August-Bold.ttf);
 }

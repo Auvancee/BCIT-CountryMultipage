@@ -1,16 +1,7 @@
-/* [0] Font Face & Initialization */
-@font-face {
-    font-family: 'NonB-Extend-SemiBold';
-    src: url(/Project-CountryWebsite/0-fonts/NonBureauExtended-SemiBold-BF67107aef1fe00.otf);
-}
 
-@font-face {
-    font-family: 'NonB-Extend-Thin';
-    src: url(/Project-CountryWebsite/0-fonts/NonBureauExtended-Thin-BF67107aef1b92a.otf);
-}
 
 body {
-    background-color: rgb(240, 116, 116);
+    background-color: rgb(212, 212, 212);
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     
@@ -44,7 +35,7 @@ a {
 
 .about-content-intro h2 {
     margin-top: 10%;
-    
+
 }
 
 .about-content {
@@ -301,6 +292,12 @@ a {
 }
 
 @media (min-width: 70em) {
+    /* [4] About Foreground */
+    .about-content-intro h2, .highlight-about h2, .history-title {
+        font-family: 'Overused-Grotesk-Bold';
+        text-transform: uppercase;
+        font-size: 3rem;
+    }
     /* [6] FoundingFather */
     .founderContent p {
         font-family: 'NonB-Extend-SemiBold';
@@ -320,6 +317,7 @@ a {
     .founderTitle h3 {
         font-family: 'NonB-Extend-Thin';
         letter-spacing: 1px;
+        
     }
     
 }
