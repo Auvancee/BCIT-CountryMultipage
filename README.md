@@ -6,10 +6,10 @@
 ✦ Check Out The Live Site → https://aumar.xyz/uae-country-website/
 
 ✦ Features Added: <br>
-    - Grid & Flex Functionality
-    - Iframe Implemenetation
-    - Foreground/Backgdrop Design
-    - Responsive Table & Form
+    - Grid & Flex Functionality <br>
+    - Iframe Implemenetation <br>
+    - Foreground/Backgdrop Design <br>
+    - Responsive Table & Form <br>
     
 
 [ Happy Developing! :) ]
